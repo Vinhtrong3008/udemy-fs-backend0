@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-backend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "homepage": "https://github.com/Vinhtrong3008/udemy-fs-backend0#readme",
+  "bugs": {
+    "url": "https://github.com/Vinhtrong3008/udemy-fs-backend0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinhtrong3008/udemy-fs-backend0.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
