@@ -1,13 +1,13 @@
 const express = require('express');
+const {getHomepage, getABC,postCreateUser,getCreatePage,getUpdatePage,postUpdateUser} = require('../controllers/homeController');
 const router = express.Router();
 
 
 //khai baos routes
-router.get('/', (req, res) => {
-  res.send('Hello World! nodemon')
-})
-router.get('/abc', (req, res) => {
-  res.render('example.ejs')
-})
-
+router.get('/', getHomepage);
+router.get('/abc', getABC);
+router.get('/create',getCreatePage);
+router.get('/update/:id',getUpdatePage);
+router.post('/create-user',postCreateUser);
+router.post('/update-user',postUpdateUser);
 module.exports = router
